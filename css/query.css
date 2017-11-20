@@ -17,9 +17,31 @@
     font-size: 12px;
   }
 }
-@media screen and (max-width: 330px){
+@media screen and (max-width: 450px){
   .chat_wrapper{
     width:100%
   }
+  .chat_form textarea{
+    width: 65%;
 }
+  .btn{
+    display: block;
+  }
+}
+@media screen and (max-width: 380px){
+  .chat_form textarea{
+    width: 62%;
+}
+}
+@media screen and (max-width: 350px){
+  .chat_form textarea{
+    width: 58%;
+}
+}
+@media screen and (max-width: 310px){
+  .chat_form textarea{
+    width: 56%;
+}
+}
+
 
