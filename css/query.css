@@ -27,6 +27,9 @@
   .btn{
     display: block;
   }
+  .message{
+    height:120px;
+  }
 }
 @media screen and (max-width: 380px){
   .chat_form textarea{
