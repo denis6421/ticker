@@ -1,0 +1,118 @@
+body{
+  box-sizing: border-box;
+}
+.chat_wrapper{
+  width: 520px;
+  height: 783px;
+  margin: auto;
+  background: black;
+  overflow: hidden;
+}
+.chat_form{
+  background-image: url('../images/ticker.png');
+  height: 220px;
+  position: relative;
+
+}
+.chat_form textarea{
+  width: 373px;
+  height: 73px;
+  margin-top: 35px;
+  margin-left: 50px;
+  background-image: url('../images/Write_Post.png');
+  background-size: cover;
+  border: none;
+  outline: none;
+  direction: rtl;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.chat_form textarea::placeholder{
+  color: black;
+}
+.chat_form img{
+  width:100%;
+  height: 35px;
+  margin-top:20px;
+}
+.btn{
+  height: 20px;
+  width: 105px;
+  background-image: url('../images/button.png');
+  background-size: cover;
+  background-position: center;
+  margin-left: 50px;
+  margin-top: 8px;
+  border: none;
+  outline: none;
+cursor: pointer;
+}
+.message_wrapper{
+    direction: rtl;
+    padding: 0px;
+    height:563px;
+    margin: 0px;
+    overflow: hidden;
+}
+.message{
+  width: 100%;
+  height: 140px;
+  background-image: url('../images/messege.png');
+  direction: rtl;
+  position: relative;
+  box-sizing: border-box;
+  list-style-type: none;
+  visibility: hidden;
+}
+.message_wrapper .message:nth-child(-n+3){
+    visibility: visible;
+}
+.message p{
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  width: 75%;
+
+
+}
+ .message .name{
+  width: auto;
+  padding-top: 20px;
+  font-size: 20px;
+}
+.message .date{
+  color:#CE0000;
+  padding-top: 5px;
+  font-size: 12px;
+}
+.message  .content{
+  margin-right: 40px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.img_box{
+  width: 50px;
+  height: 50px;
+  background: white;
+float: right;
+margin-right:40px;
+  margin-top: 25px;
+  margin-left: 10px;
+
+}
+.img_box_header{
+  position: absolute;
+  top:95px;
+  width: 50px;
+  height: 50px;
+  background: white;
+  right: 40px;
+}
+.img_box_header img ,.img_box img {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}

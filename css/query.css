@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) {
+  .chat_wrapper {
+    width: 300px;
+    height: 650px;
+  }
+  .chat_form textarea {
+    width: 170px;
+    margin-left: 30px;
+  }
+  .btn {
+    margin-left: 30px;
+  }
+  .message .date {
+    font-size: 10px;
+  }
+  .message .content {
+    font-size: 12px;
+  }
+}
