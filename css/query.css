@@ -1,50 +1,54 @@
-@media screen and (max-width: 600px) {
-  .chat_wrapper {
-    width: 300px;
-    height: 650px;
-  }
-  .chat_form textarea {
-    width: 170px;
-    margin-left: 30px;
-  }
-  .btn {
-    margin-left: 30px;
-  }
+@media screen and (max-width: 850px) {
+#text_btn_box{
+  width: 550px;
+}
+.message {
+  padding-right: 5%;
+}
   .message .date {
     font-size: 10px;
   }
   .message .content {
     font-size: 12px;
   }
-}
-@media screen and (max-width: 450px){
-  .chat_wrapper{
-    width:100%
+  .message p{
+
+    width: 80%;
   }
-  .chat_form textarea{
-    width: 65%;
 }
+@media screen and (max-width: 550px){
+  #text_btn_box{
+    width: 400px;
+    padding-left: 50px;
+
+  }
+  #text_btn_box textarea{
+    width: 70%;
+  }
+  .img_box_header{
+
+    margin-left: 15px;
+  }
   .btn{
     display: block;
+  }
+  .message_wrapper{
+    padding-top: 10px;
   }
   .message{
     height:120px;
   }
 }
-@media screen and (max-width: 380px){
-  .chat_form textarea{
-    width: 62%;
+@media screen and (max-width: 400px){
+  #text_btn_box{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #text_btn_box textarea{
+    width: 74%;
+  }
+  .message {
+    padding-right: 0px;
+  }
 }
-}
-@media screen and (max-width: 350px){
-  .chat_form textarea{
-    width: 58%;
-}
-}
-@media screen and (max-width: 310px){
-  .chat_form textarea{
-    width: 56%;
-}
-}
-
-
